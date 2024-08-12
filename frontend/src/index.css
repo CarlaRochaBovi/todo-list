@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-color: #3b82f6 #3f3f46;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #3f3f46;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #3b82f6;
+  }
